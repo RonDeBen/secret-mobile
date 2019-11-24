@@ -47,7 +47,7 @@ public class MainMenuLayout : MonoBehaviour {
 	}
 
 	public void OnFindGameButtonClicked(){
-		RequestManager.instance.SendUserStuff(nicknameText.text, avatarTex);
+		// RequestManager.instance.SendUserStuff(nicknameText.text, avatarTex);
 	}
 
 	private void PickImage( int maxSize )
